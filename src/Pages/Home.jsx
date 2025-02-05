@@ -18,9 +18,9 @@ const Home = () => {
       <Container className="my-auto">
         <Row className="gy-4">
           <Col xs={12}>
-            <div className="d-flex align-items-center justify-content-between">
+            <div className="d-flex flex-wrap align-items-center justify-content-between">
               <h1 className="text-center">CURD Application</h1>
-              <Link className="btn btn-primary me-2" to={"/create"}>
+              <Link className="btn btn-primary mt-sm-0 mt-2 me-2" to={"/create"}>
                 Create Data
               </Link>
             </div>
